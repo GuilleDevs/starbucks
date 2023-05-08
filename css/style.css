@@ -50,3 +50,124 @@ span {
 .main__img {
     display: none;
 }
+.section {
+    background-color: #006241;
+    padding: 45px 15px 55px 15px;
+    margin-top: 40px;
+}
+.section__galeria-img {
+    width: 288px;
+    height: 499px;
+    margin-top: 25px;
+}
+.contacto {
+    background-color: #141414;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.contacto__formulario {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #006241;
+    height: 200px;
+}
+
+.contacto__titulo {
+    color: #006241;
+    align-self: center;
+}
+.contacto__correo, .contacto__comentario {
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+.contacto__email:focus, .contacto__texarea:focus {
+    background-color: black;
+}
+ .contacto__texarea {
+    color: #006241;
+    height: 100px;
+    border-radius: 5px;
+}
+.contacto__email {
+    color: #006241;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.contacto__email::placeholder, .contacto__texarea::placeholder {
+    color: #006241;
+}
+.contacto__enviar {
+    width: 100px;
+    align-self: center;
+    margin-top: 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: inherit;
+    color: white;
+    text-align: center;
+    padding: 3px 10px ;
+}
+.contacto__enviar:hover {
+    background-color: #B0C20C;
+    transition: all 1s;
+}
+.contacto__formulario {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+.cards-container {
+    display: flex;
+    flex-direction: column;
+}
+.article {
+    width: 100%;
+    padding: 15px 30px;
+    position: relative;
+    
+}
+.article__circulo {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: #D8F007;
+    border: 1px solid #D8F007;
+    border-radius: 30px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    padding-top: 8px;
+}
+.article__card {
+    background-color: #006241;
+    
+    
+}
+.article__card-img {
+    width: 100%;
+}
+.article__span {
+    color: #FFFF00;
+}
+.article__parrafo, .article__titulo {
+    padding: 10px;
+    color: white;
+}
+.article__boton {
+    margin-left: 10px;
+    margin-bottom: 20px;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: inherit;
+    color:white;
+    padding: 5px 30px;
+}
+.article__boton:hover {
+    background-color: #B0C20C;
+    transition: all 1s;
+}
