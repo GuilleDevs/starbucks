@@ -171,3 +171,42 @@ span {
     background-color: #B0C20C;
     transition: all 1s;
 }
+.footer {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+.footer__registro {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 15px;
+}
+.footer__boton {
+    display: flex;
+    border: none;
+    border-radius: 10px;
+    background-color: inherit;
+    color:#006241;
+    font-weight: bold;
+    font-size: medium;
+}
+.footer__redes {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    width: 90%;
+    color:#006241;
+}
+.footer__icon {
+    margin: 5px 5px 5px 0;
+    font-size: 20px;
+}
+.footer__contacto {
+    display: flex;
+    flex-direction: row;
+    padding: 25px 15px;
+}
+.footer__link {
+    color: #09aa00;
+    text-decoration: none;   
+}
