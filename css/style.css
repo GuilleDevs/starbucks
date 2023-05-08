@@ -210,3 +210,211 @@ span {
     color: #09aa00;
     text-decoration: none;   
 }
+@media (min-width: 768px) {
+    .header__icono-mobile {
+        display: none;
+    }
+    .header__link, .header__container-login {
+        display: block;
+    }
+    .header__container-login {
+        color: white;
+        font-size: 45px;
+    }
+    .header__container-nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .header__link {
+        padding-left: 30px;
+        text-decoration: none;
+    }
+   
+    .main {
+        display: flex;
+        flex-direction: row;
+    }
+    .main__container-vista-principal {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        padding-left: 25px;
+    }
+    .main__img {
+        display: block;
+    }
+    .main__container-logo {
+        flex-direction: row;
+        width: 50%;
+        padding: 50px;
+    }
+    .main__img {
+        width: 275px;
+        height: 275px;
+    }
+    .section__container-galeria {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 5px 20px;
+    }
+    .section__galeria-img {
+        width: 210px;
+        height: 350px;
+    }
+    .contacto {
+        padding: 50px;
+    }
+    .contacto__formulario {
+        padding: 20px;
+        height: 250px;
+    }
+    .contacto__texarea {
+        width: 100%;
+        height: 100px;
+    }
+    .cards-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .article {
+        width: 50%;
+        display: flex;
+        flex-direction: row; 
+        
+    }
+    .article__card {
+        width: 100%;
+    }
+    .footer {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .footer__registro{
+        padding: 30px 30px;
+    }
+    .footer__redes{
+        justify-content: center;
+        align-items: center;
+    }
+    .footer__icon {
+        margin: 20px 20px 20px 0;
+        font-size: 25px;
+    }
+    .footer__contacto {
+        width: 300px;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (min-width: 1024px) {
+    .main__container-vista-principal {
+        width: 50%;
+        padding: 20px 0 0 30px;
+    }
+    .main__titulo {
+        font-size: 72px;
+        width: 80%;
+        line-height: 82.8px;
+    }
+    .main__parrafo {
+        font-size: 18.4px;
+        width: 90%;
+        line-height: 31.2px;
+    }
+    .main__container-logo {
+        width: 50%;
+        height: 50%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .main__img {
+        width: 120%;
+        height: 90%;
+    }
+    .section__galeria-img {
+        width: 285px;
+        height: 450px;
+        margin-top: 10px;
+    }
+    .contacto {
+        height: 500px;
+        align-items: center;
+    }
+    .contacto__formulario {
+        width: 70%;
+        height: 90%;
+        justify-content: start
+    }
+    .contacto__correo {
+        margin-top: 10px;
+        font-size: 20px;
+    }
+    .contacto__email, .contacto__texarea {
+        margin-top: 10px;
+        padding: 6px;
+        border-radius: 9px;
+    }
+    .contacto__comentario {
+        margin-top: 20px;
+        font-size: 20px;
+    }
+    .contacto__enviar {
+        align-self: self-start;
+        border: 2px solid white;
+        border-radius: 10px;
+        font-size: 16px;
+        width: 200px;
+    }
+    .cards-container {
+        padding: 40px 0 40px 0;
+        
+    }
+    .article__card {
+        width: 95%;
+        
+    }
+    .article__circulo {
+        right: 20px;
+        top: -15px;
+        width: 70px;
+        height: 70px;
+        border-radius: 50px;
+        padding-top: 15px;
+        font-size: 24px;
+        font-weight: 700;
+    }
+    .footer {
+        height: 250px;
+    }
+    .footer__registro {
+        justify-content: center;
+        width: 300px;
+        
+        margin-left: 25px;
+    }
+    .footer__boton {
+        font-size: 19px;
+    }
+    .footer__redes {
+        margin-left: 30px;
+    }
+    .footer__icon {
+        margin: 40px 40px 40px 0;
+        font-size: 25px;
+    }
+    .footer__contacto {
+        
+        width: 350px;
+        padding-right: 50px;
+    }
+    .footer__link {
+        font-size: 19px;
+        margin-right: 4px;
+    }
+}
